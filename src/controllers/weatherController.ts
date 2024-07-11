@@ -76,3 +76,19 @@ export const getHistoricalWeather = async (payload: any) => {
   );
   return response.data;
 };
+
+export const getCities = async (payload: any) => {
+  const { city } = payload;
+
+  const response = await axios.get(
+    `${process.env.GEO_CITY_API_URL}/cities?minPopulation=10000&namePrefix=${city}`,
+    {
+      headers: {
+        "X-RapidAPI-Key": "4f0dcce84bmshac9e329bd55fd14p17ec6fjsnff18c2e61917",
+        "X-RapidAPI-Host": "wft-geo-db.p.rapidapi.com",
+      },
+    }
+  );
+
+  return response.data;
+};

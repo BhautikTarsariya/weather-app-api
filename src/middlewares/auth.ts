@@ -13,7 +13,6 @@ export const verifyToken = (
     req.params.token ||
     req.headers["x-access-token"];
 
-  console.log(token);
   if (!token) {
     throw Error("Unauthorised: A token is required for authentication");
   }
