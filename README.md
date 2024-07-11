@@ -28,6 +28,16 @@
 - https://weather-app-3031.postman.co/workspace/Weather-App-Workspace~3e0ad570-47db-45cd-8a0b-f0157269e920/collection/23851930-3d149b94-1bd6-4330-8eb0-a10ec4f58516?action=share&creator=23851930
 
 
+## API documentation -
+- Openweathermap:
+- https://openweathermap.org/current
+- https://openweathermap.org/api/one-call-api
+
+- Weatherbit:
+  - https://dev.meteostat.net/api/point/daily.html#endpoint
+  - https://www.weatherbit.io/account/dashboard
+  - https://weatherbit.io/api
+
 ## API Endpoints
 
 ### Auth
