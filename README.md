@@ -23,6 +23,11 @@
 8. Build the TypeScript files: `npm run build`
 9. Start the server: `npm start`
 
+
+## Postman Collection - 
+- https://weather-app-3031.postman.co/workspace/Weather-App-Workspace~3e0ad570-47db-45cd-8a0b-f0157269e920/collection/23851930-3d149b94-1bd6-4330-8eb0-a10ec4f58516?action=share&creator=23851930
+
+
 ## API Endpoints
 
 ### Auth
