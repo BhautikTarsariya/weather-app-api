@@ -40,7 +40,7 @@ export const register = async (payload: IAuth) => {
     }
   );
 
-  return { token: token, message: "User created successfully" };
+  return { user: user, token: token, message: "User created successfully" };
 };
 
 // User Login API
@@ -70,5 +70,5 @@ export const login = async (payload: IAuth) => {
     }
   );
 
-  return { token: token, message: "User login successfully" };
+  return { user: user, token: token, message: "User login successfully" };
 };
