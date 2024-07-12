@@ -5,9 +5,9 @@ import { IAuth } from "../types/IAuth";
 
 // User Register API
 export const register = async (payload: IAuth) => {
-  const { email, password } = payload;
+  const { first_name, last_name, email, password } = payload;
 
-  if (!email || !password) {
+  if (!first_name || !last_name || !email || !password) {
     throw Error("Email and password are required");
   }
 
@@ -25,6 +25,8 @@ export const register = async (payload: IAuth) => {
 
   const user = await prisma.user.create({
     data: {
+      first_name,
+      last_name,
       email,
       password: hashedPassword,
     },
