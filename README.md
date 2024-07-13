@@ -38,6 +38,10 @@
   - https://www.weatherbit.io/account/dashboard
   - https://weatherbit.io/api
 
+- Weather Visual Crossing: 
+  - https://www.visualcrossing.com/account
+  - https://www.visualcrossing.com/weather-api
+
 ## API Endpoints
 
 ### Auth
